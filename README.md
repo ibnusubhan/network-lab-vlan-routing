@@ -57,10 +57,10 @@ encapsulation dot1Q 30
 ip address 192.168.30.1 255.255.255.0
 
 
-
-
 ## 🚀 Result
-Devices in different VLANs can communicate via routing.
+- Successful VLAN segmentation
+- Inter-VLAN communication working
+- Devices can ping across VLANs
 
 ## 📌 Use Case
 Enterprise network segmentation
