@@ -56,15 +56,16 @@ interface g0/0.30
 encapsulation dot1Q 30
 ip address 192.168.30.1 255.255.255.0
 
-ip dhcp excluded-address 192.168.10.1
-ip dhcp excluded-address 192.168.20.1
-ip dhcp excluded-address 192.168.30.1
-
 
 ## ⚙️ DHCP Configuration
 - Automatic IP assignment using router DHCP
 - Each VLAN has its own DHCP pool
 - Gateway assigned dynamically
+
+
+ip dhcp excluded-address 192.168.10.1
+ip dhcp excluded-address 192.168.20.1
+ip dhcp excluded-address 192.168.30.1
 
 ip dhcp pool VLAN10
 network 192.168.10.0 255.255.255.0
