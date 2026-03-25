@@ -100,10 +100,18 @@ dns-server 8.8.8.8
 
 ### DHCP Test
 - PCs successfully receive IP automatically
+- <img width="685" height="321" alt="image" src="https://github.com/user-attachments/assets/748a9044-3fc1-42b2-9247-338bee3bd6ea" />
+- <img width="694" height="297" alt="image" src="https://github.com/user-attachments/assets/37307567-184f-441b-8d84-3d546bd44172" />
+- <img width="685" height="295" alt="image" src="https://github.com/user-attachments/assets/df8dac3e-9990-4516-bde0-7637ffb31f2d" />
+- <img width="1339" height="730" alt="image" src="https://github.com/user-attachments/assets/43abc713-29d1-4517-a42b-9c075deedeef" />
+
+
 
 ### Connectivity Test
 - Ping between VLANs: SUCCESS
 - Gateway reachable from all VLANs
+- <img width="500" height="685" alt="image" src="https://github.com/user-attachments/assets/e265bbb4-edb0-4c0a-b1b7-6d85b732083f" />
+
 
 ## 📡 Key Features
 - VLAN segmentation for network isolation
