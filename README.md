@@ -89,5 +89,11 @@ dns-server 8.8.8.8
 - Ping between VLANs: SUCCESS
 - Gateway reachable from all VLANs
 
+## 🚀 Result
+- VLAN segmentation successfully implemented
+- Inter-VLAN routing working correctly
+- DHCP server assigns IP automatically
+- Full connectivity between VLANs verified
+
 ## 📌 Use Case
 Enterprise network segmentation
