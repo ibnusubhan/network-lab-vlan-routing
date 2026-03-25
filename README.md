@@ -17,3 +17,13 @@ This project simulates a small enterprise network using VLAN segmentation and ro
 ## ⚙️ Configuration (Basic)
 
 ### Switch
+
+
+### Router
+
+
+## 🚀 Result
+Devices in different VLANs can communicate via routing.
+
+## 📌 Use Case
+Enterprise network segmentation
