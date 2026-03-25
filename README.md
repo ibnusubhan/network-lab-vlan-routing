@@ -1,9 +1,20 @@
 # 📡 Enterprise Network Lab: VLAN, DHCP & Inter-VLAN Routing
 
+🚀 Hands-on network lab simulating real enterprise environment
+
 ## 🌍 Overview
 This project simulates a small enterprise network using VLAN segmentation and routing.
+This project demonstrates VLAN segmentation, inter-VLAN routing, and DHCP implementation in a simulated enterprise environment.
 
-## 🧠 Topology
+## 🖼 Topology
+![Topology](topology.png)
+Topology created using Cisco Packet Tracer
+
+## 🧰 Tools
+- Cisco Packet Tracer
+- CLI (Command Line Interface)
+
+## 🧠 Network Design
 - 3 VLANs (HR, Finance, IT)
 - Inter-VLAN Routing using Router
 
@@ -17,6 +28,7 @@ This project simulates a small enterprise network using VLAN segmentation and ro
 ## ⚙️ Configuration
 
 ### 🔹 Switch Configuration
+```bash
 conf t
 vlan 10
 name HR
@@ -39,9 +51,10 @@ switchport access vlan 30
 
 interface fa0/24
 switchport mode trunk
-
+```
 
 ### 🔹 Router Configuration
+```bash
 conf t
 interface g0/0
 no shutdown
@@ -57,9 +70,11 @@ ip address 192.168.20.1 255.255.255.0
 interface g0/0.30
 encapsulation dot1Q 30
 ip address 192.168.30.1 255.255.255.0
+```
 
 
 ### 🔹 Router DHCP Configuration
+```bash
 ip dhcp excluded-address 192.168.10.1
 ip dhcp excluded-address 192.168.20.1
 ip dhcp excluded-address 192.168.30.1
@@ -78,7 +93,7 @@ ip dhcp pool VLAN30
 network 192.168.30.0 255.255.255.0
 default-router 192.168.30.1
 dns-server 8.8.8.8
-
+```
 
 ## 🧪 Testing
 
@@ -88,6 +103,12 @@ dns-server 8.8.8.8
 ### Connectivity Test
 - Ping between VLANs: SUCCESS
 - Gateway reachable from all VLANs
+
+## 📡 Key Features
+- VLAN segmentation for network isolation
+- Inter-VLAN routing using Router-on-a-Stick
+- Dynamic IP assignment using DHCP
+
 
 ## 🚀 Result
 - VLAN segmentation successfully implemented
