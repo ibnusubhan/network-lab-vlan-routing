@@ -7,7 +7,8 @@ This project simulates a small enterprise network using VLAN segmentation and ro
 This project demonstrates VLAN segmentation, inter-VLAN routing, and DHCP implementation in a simulated enterprise environment.
 
 ## 🖼 Topology
-![Topology](topology.png)
+<img width="564" height="349" alt="topology" src="https://github.com/user-attachments/assets/6455594e-f359-4628-83cc-e00b016008c7" />
+
 Topology created using Cisco Packet Tracer
 
 ## 🧰 Tools
