@@ -1,3 +1,4 @@
+```bash
 conf t
 vlan 10
 name HR
@@ -20,3 +21,4 @@ switchport access vlan 30
 
 interface fa0/24
 switchport mode trunk
+```
